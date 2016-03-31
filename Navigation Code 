@@ -1,0 +1,44 @@
+<nav>
+  <header>
+    <a href="#" class="site-logo"><img src="#" alt="logo" width="200" height="100"></a>
+      <ul class="primary-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+  <header>  
+</nav>
+
+CSS
+.primary-nav
+margin: 0;
+padding: 0;
+list-style: none;
+
+.primary-nav li {
+  
+}
+
+.primary-nav a {
+Color
+padding
+background
+text decoration
+}
+
+@media screen and {min-width: 480px} {
+  .site-logo {
+  }
+
+  .site-logo img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  }
+
+  .primary-nav li {
+  float: left; or display: inline-block;
+  margin-right: 15px;
+  }
+}
